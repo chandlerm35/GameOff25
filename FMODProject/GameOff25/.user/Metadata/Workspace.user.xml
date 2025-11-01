@@ -10,10 +10,10 @@
 	</object>
 	<object class="ProjectSettings" id="{9feee469-044d-4172-ac6b-f2cdbe320ae0}">
 		<property name="openWindows">
-			<value>Event Editor 1</value>
+			<value>Mixer 1</value>
 		</property>
 		<property name="windowLayout">
-			<value>AAAAAQAAABwARQB2AGUAbgB0ACAARQBkAGkAdABvAHIAIAAxAAAAQgHZ0MsAAwAA//////////gAAAeAAAAEEP////AAAADrAAAEDwAAAo4AAAAAAgAAAAeAAAAAAAAAABcAAAd/AAAEDw==</value>
+			<value>AAAAAgAAAA4ATQBpAHgAZQByACAAMQAAAEIB2dDLAAMAAP/////////4AAAHgAAABBAAAADrAAAAEgAABXgAAALhAAAAAAIAAAAHgAAAAAAAAAAXAAAHfwAABA8AAAAcAEUAdgBlAG4AdAAgAEUAZABpAHQAbwByACAAMQAAAEIB2dDLAAMAAP/////////4AAAHgAAABBD////wAAAA6wAABA8AAAKOAAAAAAIAAAAHgAAAAAAAAAAXAAAHfwAABA8=</value>
 		</property>
 		<relationship name="activePlatform">
 			<destination>{bf65c1e1-1381-4a24-8a14-c2ae360f2932}</destination>
