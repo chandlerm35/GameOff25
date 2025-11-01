@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{507bc5a2-e3fb-429e-adba-16e630797fc6}">
 		<property name="name">
-			<value>TestEvent</value>
+			<value>PlaceholderSFX</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -73,6 +73,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{382dc11c-cf8f-4730-8575-d4bfb7af468a}">
+		<property name="volume">
+			<value>-21.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{c7037759-3b4a-4766-b7cd-e74f09a2d7f8}</destination>
 		</relationship>
