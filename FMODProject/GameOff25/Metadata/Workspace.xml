@@ -5,34 +5,35 @@
 			<value>../../Content/FMOD</value>
 		</property>
 		<relationship name="masterEventFolder">
-			<destination>{d019a346-6814-44ab-a16d-4b015fcced4a}</destination>
+			<destination>{10514f30-812f-4468-9e18-769cfe61a393}</destination>
 		</relationship>
 		<relationship name="masterTagFolder">
-			<destination>{052aafbb-b904-4f1a-b063-70e4f72a8351}</destination>
+			<destination>{b621d747-1054-4c4c-ab58-207063ccbfec}</destination>
 		</relationship>
 		<relationship name="masterEffectPresetFolder">
-			<destination>{989d3cc3-04cb-4f08-914b-0d8828a76b01}</destination>
+			<destination>{f0c2d778-5d01-4497-b303-3e20ab393b96}</destination>
 		</relationship>
 		<relationship name="masterParameterPresetFolder">
-			<destination>{cf2764ff-27ae-486c-bff9-f7f7d9c43b06}</destination>
+			<destination>{9c157214-bd7e-437d-9d40-7f039d724337}</destination>
 		</relationship>
 		<relationship name="masterBankFolder">
-			<destination>{341919a6-eaf5-432a-9b10-2e07c0c8a56b}</destination>
+			<destination>{1ba03849-c064-4df9-979e-ae59958f8ce8}</destination>
 		</relationship>
 		<relationship name="masterSandboxFolder">
-			<destination>{fdfd6e0c-daba-4c77-b81c-2d6c0a13f456}</destination>
+			<destination>{332b1c04-9d92-469f-9822-95cc5a8308ff}</destination>
 		</relationship>
 		<relationship name="masterAssetFolder">
-			<destination>{f4e48c71-d436-4695-8d87-08ebce876002}</destination>
+			<destination>{51130421-aaf5-4ab8-b040-4641f2b20e10}</destination>
 		</relationship>
 		<relationship name="mixer">
-			<destination>{99e2fb02-6011-44e6-85f1-4ac0b2978725}</destination>
+			<destination>{8b612d72-ef1c-4a2e-8928-c444d57a90c2}</destination>
 		</relationship>
 		<relationship name="profilerSessionFolder">
-			<destination>{89a6b581-13ba-43c2-b848-7fc62288a7b3}</destination>
+			<destination>{cb0d71a4-8345-4550-bba2-c15f8a5bb0ed}</destination>
 		</relationship>
 		<relationship name="platforms">
 			<destination>{4bfbc361-5183-4162-8499-4f32a1308c66}</destination>
+			<destination>{bf65c1e1-1381-4a24-8a14-c2ae360f2932}</destination>
 		</relationship>
 	</object>
 </objects>
