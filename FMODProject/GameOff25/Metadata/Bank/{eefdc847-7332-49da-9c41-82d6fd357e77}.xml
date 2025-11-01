@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Master</value>
 		</property>
+		<property name="isMasterBank">
+			<value>true</value>
+		</property>
 		<relationship name="folder">
 			<destination>{1ba03849-c064-4df9-979e-ae59958f8ce8}</destination>
 		</relationship>
