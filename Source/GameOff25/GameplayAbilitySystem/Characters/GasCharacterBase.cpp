@@ -2,13 +2,12 @@
 
 
 #include "GasCharacterBase.h"
-
 #include "GameOff25/GameplayAbilitySystem/Attributes/BasicAttributeSet.h"
 
 // Sets default values
 AGasCharacterBase::AGasCharacterBase()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
@@ -17,13 +16,6 @@ AGasCharacterBase::AGasCharacterBase()
 
 	// Add Attribute Set
 	BaseAttributeSet = CreateDefaultSubobject<UBasicAttributeSet>(TEXT("BasicAttributeSet"));
-}
-
-// Called when the game starts or when spawned
-void AGasCharacterBase::BeginPlay()
-{
-	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -45,6 +37,13 @@ UAbilitySystemComponent* AGasCharacterBase::GetAbilitySystemComponent() const
 	return AbilitySystemComponent;
 }
 
+// Called when the game starts or when spawned
+void AGasCharacterBase::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
 void AGasCharacterBase::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
@@ -52,8 +51,11 @@ void AGasCharacterBase::PossessedBy(AController* NewController)
 	if (AbilitySystemComponent)
 	{
 		AbilitySystemComponent->InitAbilityActorInfo(this, this); // Makes Get Avatar BP Work!
+		AbilitySystemComponent->RefreshAbilityActorInfo(); // Maybe Redundant, supposed bugfix
 	}
+
 }
+
 
 void AGasCharacterBase::OnRep_PlayerState()
 {
@@ -64,4 +66,18 @@ void AGasCharacterBase::OnRep_PlayerState()
 		AbilitySystemComponent->InitAbilityActorInfo(this, this);
 	}
 }
+
+
+
+void AGasCharacterBase::UnPossessed()
+
+{
+	Super::UnPossessed();
+
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->RefreshAbilityActorInfo();
+	}
+}
+
 

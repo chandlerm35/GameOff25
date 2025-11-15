@@ -44,4 +44,5 @@ protected:
 
 	virtual void PossessedBy(AController* NewController) override; // AI possessed character
 	virtual void OnRep_PlayerState() override;                     // Controller Assigned
+	virtual void UnPossessed() override;
 };
