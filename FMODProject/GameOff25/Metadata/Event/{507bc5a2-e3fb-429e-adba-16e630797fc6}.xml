@@ -5,7 +5,7 @@
 			<value>PlaceholderSFX</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{10514f30-812f-4468-9e18-769cfe61a393}</destination>
@@ -106,14 +106,41 @@
 	<object class="MixerBusEffectChain" id="{c7037759-3b4a-4766-b7cd-e74f09a2d7f8}">
 		<relationship name="effects">
 			<destination>{9ae79d35-35e8-4242-807e-0ff7988c6423}</destination>
+			<destination>{4e9e2a64-9a35-474d-92ea-bf06cd062fdb}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{293c5432-ac6f-4dfb-b813-a8b882cfcfff}" />
+	<object class="MixerBusPanner" id="{293c5432-ac6f-4dfb-b813-a8b882cfcfff}">
+		<property name="surroundPanDirection">
+			<value>-98.0758972</value>
+		</property>
+		<property name="surroundPanExtent">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{5e674dc8-7566-4d57-96b7-07a04426a32d}">
+		<relationship name="modulators">
+			<destination>{a73057d3-d9b8-4924-b109-5d7c5a31dc7d}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{12c39d78-79d9-4c65-9635-c386ad27565e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{619df645-17bb-4cf0-b39b-2cd2e376bff2}" />
 	<object class="MixerBusFader" id="{9ae79d35-35e8-4242-807e-0ff7988c6423}" />
+	<object class="SpatialiserEffect" id="{4e9e2a64-9a35-474d-92ea-bf06cd062fdb}">
+		<property name="maximumDistance">
+			<value>90</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{a73057d3-d9b8-4924-b109-5d7c5a31dc7d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>5</value>
+		</property>
+	</object>
 </objects>
