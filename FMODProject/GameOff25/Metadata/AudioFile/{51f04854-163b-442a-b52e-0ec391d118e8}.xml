@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{51f04854-163b-442a-b52e-0ec391d118e8}">
+		<property name="assetPath">
+			<value>Spaceship_Fail_Stereo_02.WAV</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.75</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{51130421-aaf5-4ab8-b040-4641f2b20e10}</destination>
+		</relationship>
+	</object>
+</objects>
