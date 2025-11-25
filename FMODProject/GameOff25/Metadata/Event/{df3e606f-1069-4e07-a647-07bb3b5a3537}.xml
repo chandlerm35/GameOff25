@@ -108,14 +108,7 @@
 			<destination>{8f5cac06-64d8-4259-87b1-bdcfc1b9c231}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{61e3a377-efb9-4e0d-a8a5-a4b66dc35d6a}">
-		<property name="surroundPanDirection">
-			<value>-98.0758972</value>
-		</property>
-		<property name="surroundPanExtent">
-			<value>0</value>
-		</property>
-	</object>
+	<object class="MixerBusPanner" id="{61e3a377-efb9-4e0d-a8a5-a4b66dc35d6a}" />
 	<object class="SingleSound" id="{259a4e50-12f7-4562-823e-88c42ef37ae1}">
 		<relationship name="modulators">
 			<destination>{0d39da93-0b08-4088-87d4-a2d75412b1cf}</destination>

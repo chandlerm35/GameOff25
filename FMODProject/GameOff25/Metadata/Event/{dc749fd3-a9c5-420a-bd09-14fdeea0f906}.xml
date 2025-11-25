@@ -109,11 +109,8 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{683fd45c-48da-4b3e-8a61-f54ea8b70ac9}">
-		<property name="surroundPanDirection">
-			<value>-98.0758972</value>
-		</property>
-		<property name="surroundPanExtent">
-			<value>0</value>
+		<property name="disabledSpeakers">
+			<value>16</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{be7c0381-0635-4f5a-bfae-51d392631630}">
