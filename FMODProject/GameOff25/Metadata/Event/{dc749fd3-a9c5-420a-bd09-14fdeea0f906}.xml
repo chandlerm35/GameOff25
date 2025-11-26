@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{dc749fd3-a9c5-420a-bd09-14fdeea0f906}">
 		<property name="name">
-			<value>UIPopup</value>
+			<value>UIAlert</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -78,9 +78,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{480865fc-2043-45fc-be69-e8f7e06b873c}">
-		<property name="volume">
-			<value>-21.5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{96a4f3a5-0598-4302-a6cf-94745fac8510}</destination>
 		</relationship>
@@ -118,9 +115,7 @@
 			<destination>{c8ad359c-9c73-444c-8cf8-b21e6eb2682a}</destination>
 		</relationship>
 		<relationship name="sounds">
-			<destination>{fa7fee2b-e6a0-4a5c-88f3-b64a148bb455}</destination>
-			<destination>{01ff12b6-1696-434b-b0d0-2773f432acca}</destination>
-			<destination>{9e307ea9-39f3-419a-9ad8-dac239bd6042}</destination>
+			<destination>{fdd01f51-1c56-4555-9146-47b3c01b0940}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{9c7b40f7-0f00-46c1-810c-af8d4a562e29}" />
@@ -141,19 +136,9 @@
 			<value>2</value>
 		</property>
 	</object>
-	<object class="SingleSound" id="{fa7fee2b-e6a0-4a5c-88f3-b64a148bb455}">
+	<object class="SingleSound" id="{fdd01f51-1c56-4555-9146-47b3c01b0940}">
 		<relationship name="audioFile">
-			<destination>{26561d08-7bb1-4f68-9323-09d97350fbc6}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{01ff12b6-1696-434b-b0d0-2773f432acca}">
-		<relationship name="audioFile">
-			<destination>{2b4c4f37-5e37-4932-85a8-318b3045804f}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{9e307ea9-39f3-419a-9ad8-dac239bd6042}">
-		<relationship name="audioFile">
-			<destination>{ebf5d9fd-9303-4018-b9a8-96718974458a}</destination>
+			<destination>{4619a2d5-f85d-4aa4-bb22-2958d041c4b1}</destination>
 		</relationship>
 	</object>
 </objects>
