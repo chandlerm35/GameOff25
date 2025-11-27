@@ -120,11 +120,7 @@
 		<relationship name="sounds">
 			<destination>{f4152f51-4a41-49f5-a1b3-ec602441161f}</destination>
 			<destination>{bd7ed11f-6bb4-4971-935d-8c72b103ee80}</destination>
-			<destination>{3c11ca74-00c5-447a-a8db-e3b185e958f9}</destination>
-			<destination>{5d81cac2-231a-4932-8460-c00eea51edaf}</destination>
-			<destination>{0afce918-c7c3-48d1-8298-0113498b2b32}</destination>
-			<destination>{264e4141-95d7-4e6b-8941-836d519e5374}</destination>
-			<destination>{2387b234-2983-40ee-a845-f5f2967ed5a1}</destination>
+			<destination>{06dbeafc-fcd3-4b25-93cf-328d0156d6fb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{9851162c-6319-4f81-ac7b-83ed0a98350f}" />
@@ -155,29 +151,9 @@
 			<destination>{8e763b97-290e-4f27-bdc7-b18c78284580}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{3c11ca74-00c5-447a-a8db-e3b185e958f9}">
+	<object class="SingleSound" id="{06dbeafc-fcd3-4b25-93cf-328d0156d6fb}">
 		<relationship name="audioFile">
-			<destination>{8ffa43bc-f3ab-4af6-bc16-9c2e030d6138}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{5d81cac2-231a-4932-8460-c00eea51edaf}">
-		<relationship name="audioFile">
-			<destination>{e088acab-b352-494c-86a5-e812b33ea3f9}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{0afce918-c7c3-48d1-8298-0113498b2b32}">
-		<relationship name="audioFile">
-			<destination>{3bb73abe-1579-403e-9e1c-01c5b0565de8}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{264e4141-95d7-4e6b-8941-836d519e5374}">
-		<relationship name="audioFile">
-			<destination>{c9042979-a831-4811-9a35-8ca35ba1e7da}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{2387b234-2983-40ee-a845-f5f2967ed5a1}">
-		<relationship name="audioFile">
-			<destination>{04a41864-e3e1-4079-aa87-a1f9e749fa1d}</destination>
+			<destination>{27c998ee-73cc-45b9-a86a-7fb53725b8c4}</destination>
 		</relationship>
 	</object>
 </objects>
