@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{653ad306-688a-487b-ad9e-ff4fbb5097dd}">
+		<property name="assetPath">
+			<value>ShootTrials/Weapon_Rifle_Gun_Shot_AR_9mm_Punchy_Close_Single_2.WAV</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.8124943310657597</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{51130421-aaf5-4ab8-b040-4641f2b20e10}</destination>
+		</relationship>
+	</object>
+</objects>
