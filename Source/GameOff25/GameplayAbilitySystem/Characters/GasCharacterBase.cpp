@@ -37,6 +37,11 @@ UAbilitySystemComponent* AGasCharacterBase::GetAbilitySystemComponent() const
 	return AbilitySystemComponent;
 }
 
+void AGasCharacterBase::CancelAbilities(const FGameplayTagContainer& WithTags)
+{
+	AbilitySystemComponent->CancelAbilities(&WithTags);
+}
+
 // Called when the game starts or when spawned
 void AGasCharacterBase::BeginPlay()
 {
