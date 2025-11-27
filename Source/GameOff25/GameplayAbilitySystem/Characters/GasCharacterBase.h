@@ -38,6 +38,9 @@ public:
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
+	UFUNCTION(BlueprintCallable, Category = "AbilitySystem")
+	void CancelAbilities(const FGameplayTagContainer& WithTags);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
