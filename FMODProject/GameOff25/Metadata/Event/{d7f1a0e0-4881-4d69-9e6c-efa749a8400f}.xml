@@ -194,7 +194,7 @@
 	</object>
 	<object class="CommandSound" id="{e35d3526-bf12-40ea-abf4-6c67171b0f37}">
 		<property name="start">
-			<value>58</value>
+			<value>64</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -544,7 +544,7 @@
 	</object>
 	<object class="CommandSound" id="{2a42d2d4-6ee1-433d-afdc-88ea3841c60c}">
 		<property name="start">
-			<value>60</value>
+			<value>65.062681576173389</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
